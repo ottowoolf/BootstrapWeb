@@ -46,10 +46,11 @@ body {
   border: 1px solid #563d7c;
 }
 .jumbotron {
-  padding: 2rem;
+  height: 100vh;
   border-radius: 0;
   position: relative;
   justify-content: center;
+  align-items: center;
 }
 .padding {
   padding-bottom: 1rem;
@@ -68,11 +69,13 @@ body {
 #cool {
   background-color: #222222;
   color: #d5d5d5;
+  height: 95vh;
 }
 .fa-code {
   color: #e54d26;
 }
-.fa-bold {
+.fa-bold,
+.csharp {
   color: #563d7c;
 }
 .fa-css3 {
@@ -91,7 +94,7 @@ body {
 .fa-bold,
 .fa-css3,
 .fa-js,
-.fa-python,
+.csharp,
 .fa-react {
   font-size: 4em;
   margin: 1rem;
